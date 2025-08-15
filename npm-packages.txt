@@ -1,7 +1,5 @@
-/home/sahilhawal/.nvm/versions/node/v22.15.1/lib
-├── @anthropic-ai/claude-code@1.0.71
-├── corepack@0.32.0
-├── npm@10.9.2
-├── ts-node@10.9.2
-└── typescript@5.9.2
 
+corepack
+npm
+ts-node
+typescript
