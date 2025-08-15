@@ -1,0 +1,276 @@
+[com/system76/hidpi]
+mode='hidpi'
+
+[io/elementary/appcenter/settings]
+cached-drivers=['nvidia-driver-535-server, (kernel modules provided by nvidia-dkms-535-server)', 'nvidia-driver-418-server, (kernel modules provided by nvidia-dkms-418-server)', 'nvidia-driver-470-server, (kernel modules provided by nvidia-dkms-470-server)', 'nvidia-driver-450-server, (kernel modules provided by nvidia-dkms-450-server)', 'nvidia-driver-565, (kernel modules provided by nvidia-dkms-565)', 'nvidia-driver-470, (kernel modules provided by nvidia-dkms-470)', 'nvidia-driver-575-server, (kernel modules provided by nvidia-dkms-575-server)', 'nvidia-driver-575, (kernel modules provided by nvidia-dkms-575)', 'nvidia-driver-570-server, (kernel modules provided by nvidia-dkms-570-server)', 'nvidia-driver-570, (kernel modules provided by nvidia-dkms-570)']
+last-refresh-time=int64 1755243745
+window-height=660
+window-maximized=false
+window-width=1024
+
+[org/gnome/control-center]
+last-panel='desktop-workspaces'
+
+[org/gnome/desktop/app-folders/folders/Pop-Office]
+apps=['libreoffice-calc.desktop', 'libreoffice-draw.desktop', 'libreoffice-impress.desktop', 'libreoffice-math.desktop', 'libreoffice-startcenter.desktop', 'libreoffice-writer.desktop']
+name='Office'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/Pop-System]
+apps=['gnome-language-selector.desktop', 'gnome-session-properties.desktop', 'gnome-system-monitor.desktop', 'im-config.desktop', 'nm-connection-editor.desktop', 'nvidia-settings.desktop', 'org.gnome.baobab.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.PowerStats.desktop', 'org.gnome.seahorse.Application.desktop', 'software-properties-gnome.desktop', 'system76-driver.desktop', 'system76-firmware.desktop']
+name='System'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/Pop-Utility]
+apps=['com.github.donadigo.eddy.desktop', 'com.system76.Popsicle.desktop', 'gucharmap.desktop', 'info.desktop', 'org.gnome.eog.desktop', 'org.gnome.Evince.desktop', 'org.gnome.Extensions.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.font-viewer.desktop', 'org.gnome.Screenshot.desktop', 'org.gnome.Totem.desktop', 'pop-cosmic-applications.desktop', 'pop-cosmic-launcher.desktop', 'pop-cosmic-workspaces.desktop', 'simple-scan.desktop', 'yelp.desktop']
+name='Utilities'
+translate=true
+
+[org/gnome/desktop/background]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri-dark='file:///home/sahilhawal/.local/share/backgrounds/2025-08-11-12-10-17-1-scenery-pink-lakeside-sunset-lake-landscape-scenic-panorama-7680x3215-144.png'
+primary-color='#000000000000'
+secondary-color='#000000000000'
+
+[org/gnome/desktop/input-sources]
+current=uint32 0
+per-window=false
+sources=[('xkb', 'us')]
+xkb-options=@as []
+
+[org/gnome/desktop/interface]
+color-scheme='prefer-dark'
+enable-animations=false
+enable-hot-corners=false
+font-antialiasing='grayscale'
+font-hinting='slight'
+show-battery-percentage=true
+
+[org/gnome/desktop/notifications]
+application-children=['org-gnome-nautilus', 'google-chrome', 'gnome-power-panel', 'ulauncher', 'gnome-control-center', 'org-gnome-fileroller', 'org-gnome-evolution-alarm-notify', 'com-mitchellh-ghostty', 'org-gnome-gedit', 'io-elementary-appcenter']
+
+[org/gnome/desktop/notifications/application/com-mitchellh-ghostty]
+application-id='com.mitchellh.ghostty.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-control-center]
+application-id='gnome-control-center.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-power-panel]
+application-id='gnome-power-panel.desktop'
+
+[org/gnome/desktop/notifications/application/google-chrome]
+application-id='google-chrome.desktop'
+
+[org/gnome/desktop/notifications/application/io-elementary-appcenter]
+application-id='io.elementary.appcenter.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-evolution-alarm-notify]
+application-id='org.gnome.Evolution-alarm-notify.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-fileroller]
+application-id='org.gnome.FileRoller.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-gedit]
+application-id='org.gnome.gedit.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-nautilus]
+application-id='org.gnome.Nautilus.desktop'
+
+[org/gnome/desktop/notifications/application/ulauncher]
+application-id='ulauncher.desktop'
+
+[org/gnome/desktop/peripherals/mouse]
+accel-profile='flat'
+natural-scroll=false
+speed=-0.26470588235294112
+
+[org/gnome/desktop/peripherals/touchpad]
+natural-scroll=false
+two-finger-scrolling-enabled=true
+
+[org/gnome/desktop/privacy]
+report-technical-problems=false
+
+[org/gnome/desktop/screensaver]
+color-shading-type='solid'
+lock-delay=uint32 0
+lock-enabled=false
+picture-options='zoom'
+picture-uri='file:///home/sahilhawal/.local/share/backgrounds/2025-08-11-12-10-17-1-scenery-pink-lakeside-sunset-lake-landscape-scenic-panorama-7680x3215-144.png'
+primary-color='#000000000000'
+secondary-color='#000000000000'
+ubuntu-lock-on-suspend=false
+
+[org/gnome/desktop/session]
+idle-delay=uint32 0
+
+[org/gnome/desktop/wm/keybindings]
+activate-window-menu=@as []
+
+[org/gnome/desktop/wm/preferences]
+button-layout='appmenu:minimize,maximize,close'
+workspace-names=@as []
+
+[org/gnome/evolution-data-server]
+migrated=true
+network-monitor-gio-name=''
+
+[org/gnome/evolution-data-server/calendar]
+notify-window-height=279
+notify-window-paned-position=48
+notify-window-width=200
+notify-window-x=0
+notify-window-y=32
+reminders-past=['627b6591f34da33806c1210321f570b7c493c247\n7b94f72986df27407b9bc3f0263df8b192b13c23\t20250813T093000\n1755055800\n1755057600\n1755058500\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Kolkata:20250813T093000\r\nDTEND;TZID=Asia/Kolkata:20250813T094500\r\nDTSTAMP:20250811T052554Z\r\nORGANIZER;CN=Shyam Seshadri:mailto:shyam@kiwiinsurance.com\r\nUID:\r\n 040000008200E00074C5B7101A82E00800000000535769CA8808DC01000000000000000010\r\n 0000009576117BB0CA424D88011ABE5BA1A58C\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;\r\n CN=sahilhawal1996@gmail.com;X-NUM-GUESTS=0:mailto:\r\n sahilhawal1996@gmail.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;\r\n CN=Shyam Seshadri;X-NUM-GUESTS=0:mailto:shyam@kiwiinsurance.com\r\nCREATED:20250808T172105Z\r\nDESCRIPTION:Event Name\\nQuick Sync (Powered by Calendly<https:\r\n //calendly.com/booking-badge?utm_medium=product_referral&utm_source=calend\r\n ar_invitation&utm_campaign=invitee_html_emails&utm_content=powered_by_cale\r\n ndly>)\\n\\nLocation\\n\\nNeed to make changes to this event? Cancel<https:\r\n //calendly.com/cancellations/66f8b4d4-c76a-450f-a20f-42dfee13c5cd> \r\n Reschedule<https:\r\n //calendly.com/reschedulings/66f8b4d4-c76a-450f-a20f-42dfee13c5cd>\\nSign \r\n up for your own Calendly account Try Calendly for free<https:\r\n //calendly.com/booking-badge?utm_medium=product_referral&utm_source=calend\r\n ar_invitation&utm_campaign=invitee_html_emails&utm_content=try_calendly_fr\r\n ee>\\n_____________________________________________________________________\r\n ___________\\nMicrosoft Teams Need help?<https:\r\n //aka.ms/JoinTeamsMeeting?omkt=en-US>\\nJoin the meeting now<https:\r\n //teams.microsoft.com/l/meetup-join/19%3ameeting_Y2MwMGE1NWQtY2Q1NC00NzU2L\r\n TgyZjEtM2Q0MDNiNDQ2ZDgz%40thread.v2/0?context=%7b%22Tid%22%3a%223f5a765b-2\r\n 48a-4b31-814d-354c12309856%22%2c%22Oid%22%3a%2271bfcb1b-8347-471f-be11-2b5\r\n a34ad67c7%22%7d>\\nMeeting ID: 483 827 793 692 3\\nPasscode: \r\n KV22Wt6n\\n________________________________\\nFor organizers: Meeting \r\n options<https:\r\n //teams.microsoft.com/meetingOptions/?organizerId=71bfcb1b-8347-471f-be11-\r\n 2b5a34ad67c7&tenantId=3f5a765b-248a-4b31-814d-354c12309856&threadId=19_mee\r\n ting_Y2MwMGE1NWQtY2Q1NC00NzU2LTgyZjEtM2Q0MDNiNDQ2ZDgz@thread.v2&messageId=\r\n 0&language=en-US>\\n_______________________________________________________\r\n _________________________\\n\r\nLAST-MODIFIED:20250811T052554Z\r\nLOCATION:https:\r\n //calendly.com/events/321433c5-d929-4dfa-8b05-17c9af8da79a/microsoft_teams\r\n \r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sahil Hawal and Shyam Seshadri\r\nTRANSP:OPAQUE\r\nX-MICROSOFT-CDO-ALLDAYEVENT:FALSE\r\nX-MICROSOFT-CDO-APPT-SEQUENCE:0\r\nX-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE\r\nX-MICROSOFT-CDO-IMPORTANCE:1\r\nX-MICROSOFT-CDO-INSTTYPE:0\r\nX-MICROSOFT-CDO-INTENDEDSTATUS:BUSY\r\nX-MICROSOFT-CDO-OWNERAPPTID:2123907536\r\nX-MICROSOFT-DISALLOW-COUNTER:FALSE\r\nX-MICROSOFT-DONOTFORWARDMEETING:FALSE\r\nX-MICROSOFT-ISRESPONSEREQUESTED:TRUE\r\nX-MICROSOFT-LOCATIONDISPLAYNAME:https:\r\n //calendly.com/events/321433c5-d929-4dfa-8b05-17c9af8da79a/microsoft_teams\r\n \r\nX-MICROSOFT-LOCATIONS:[{"DisplayName":"https:\r\n //calendly.com/events/321433c5-d929-4dfa-8b05-17c9af8da79a/microsoft_teams\r\n "\\,"LocationAnnotation":""\\,"LocationUri":""\\,"LocationStreet":\r\n ""\\,"LocationCity":""\\,"LocationState":""\\,"LocationCountry":\r\n ""\\,"LocationPostalCode":""\\,"LocationFullAddress":""}]\r\nX-MICROSOFT-LOCATIONSOURCE:None\r\nX-MICROSOFT-ONLINEMEETINGINFORMATION:{"OnlineMeetingChannelId":\r\n null\\,"OnlineMeetingProvider":3}\r\nX-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT\r\nX-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https:\r\n //api.scheduler.teams.microsoft.com/teams/3f5a765b-248a-4b31-814d-354c1230\r\n 9856/71bfcb1b-8347-471f-be11-2b5a34ad67c7/19_meeting_Y2MwMGE1NWQtY2Q1NC00N\r\n zU2LTgyZjEtM2Q0MDNiNDQ2ZDgz@thread.v2/0\r\nX-MICROSOFT-SKYPETEAMSMEETINGURL:https:\r\n //teams.microsoft.com/l/meetup-join/19%3ameeting_Y2MwMGE1NWQtY2Q1NC00NzU2L\r\n TgyZjEtM2Q0MDNiNDQ2ZDgz%40thread.v2/0?context=%7b%22Tid%22%3a%223f5a765b-2\r\n 48a-4b31-814d-354c12309856%22%2c%22Oid%22%3a%2271bfcb1b-8347-471f-be11-2b5\r\n a34ad67c7%22%7d\r\nX-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:\r\n meeting_Y2MwMGE1NWQtY2Q1NC00NzU2LTgyZjEtM2Q0MDNiNDQ2ZDgz@thread.v2"\\,"rid"\r\n :0\\,"mid":0\\,"uid":null\\,"private":true\\,"type":0}\r\nX-EVOLUTION-CALDAV-ETAG:63890573154\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT30M\r\nX-EVOLUTION-ALARM-UID:7b94f72986df27407b9bc3f0263df8b192b13c23\r\nEND:VALARM\r\nEND:VEVENT\r\n', '627b6591f34da33806c1210321f570b7c493c247\nd383e91b7c4f7b6e37b2eeaa347678831272012b\t20250721T190000\n1753102800\n1753104600\n1753108200\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Kolkata:20250721T190000\r\nDTEND;TZID=Asia/Kolkata:20250721T200000\r\nDTSTAMP:20250718T061633Z\r\nORGANIZER;CN=kkarra@gocommotion.com:mailto:kkarra@gocommotion.com\r\nUID:3psi5cfjah4ikjrut641ulnrlt@google.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;\r\n CN=kkarra@gocommotion.com;X-NUM-GUESTS=0:mailto:kkarra@gocommotion.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;\r\n CN=sahilhawal1996@gmail.com;X-NUM-GUESTS=0:mailto:\r\n sahilhawal1996@gmail.com\r\nX-GOOGLE-CONFERENCE:https://meet.google.com/ptu-brhd-wxp\r\nCREATED:20250717T102953Z\r\nDESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:\r\n ~:~:~:~:~:~:~:~:~::~:~::-\\nJoin with Google Meet: https:\r\n //meet.google.com/ptu-brhd-wxp\\nOr dial: (US) +1 406-641-2045 PIN: \r\n 222980893#\\nMore phone numbers: https:\r\n //tel.meet/ptu-brhd-wxp?pin=7688393306790&hs=7\\n\\nLearn more about Meet \r\n at: https://support.google.com/a/users/answer/9282720\\n\\nPlease do not \r\n edit this section.\\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:\r\n ~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-\r\nLAST-MODIFIED:20250718T061633Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sahil <> Commotion :: Sr Frontend\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63888502593\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT30M\r\nX-EVOLUTION-ALARM-UID:d383e91b7c4f7b6e37b2eeaa347678831272012b\r\nEND:VALARM\r\nEND:VEVENT\r\n']
+
+[org/gnome/file-roller/dialogs/add]
+current-folder='file:///home/sahilhawal/Downloads'
+exclude-files=''
+exclude-folders=''
+include-files='*'
+no-symlinks=true
+selected-files=@as []
+update=false
+
+[org/gnome/file-roller/dialogs/extract]
+recreate-folders=true
+skip-newer=false
+
+[org/gnome/file-roller/file-selector]
+show-hidden=false
+sidebar-size=156
+window-size=(780, 734)
+
+[org/gnome/file-roller/listing]
+list-mode='as-folder'
+name-column-width=250
+show-path=false
+sort-method='name'
+sort-type='ascending'
+
+[org/gnome/file-roller/ui]
+sidebar-width=200
+window-height=480
+window-width=600
+
+[org/gnome/gedit/plugins]
+active-plugins=['modelines', 'sort', 'docinfo', 'spell', 'openlinks', 'filebrowser']
+
+[org/gnome/gedit/plugins/filebrowser]
+root='file:///'
+tree-view=true
+virtual-root='file:///home/sahilhawal/.config/ghostty'
+
+[org/gnome/gedit/preferences/ui]
+show-tabs-mode='auto'
+
+[org/gnome/gedit/state/window]
+bottom-panel-size=140
+side-panel-active-page='GeditWindowDocumentsPanel'
+side-panel-size=200
+size=(900, 700)
+state=87168
+
+[org/gnome/mutter]
+dynamic-workspaces=true
+edge-tiling=true
+
+[org/gnome/nautilus/preferences]
+default-folder-viewer='icon-view'
+search-filter-time-type='last_modified'
+
+[org/gnome/nautilus/window-state]
+maximized=true
+
+[org/gnome/settings-daemon/plugins/media-keys]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/PopLaunch1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/']
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/PopLaunch1]
+binding='Launch1'
+command='gnome-control-center wifi'
+name='WiFi'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+binding='<Alt>2'
+command="bash -c 'wmctrl -xa code || code'\n"
+name='VS Code'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1]
+binding='<Alt>3'
+command="bash -c 'wmctrl -xa \"google-chrome\" || google-chrome'\n"
+name='Chrome'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2]
+binding='<Alt>space'
+command="bash -c 'wmctrl -xa \"ghostty\" || ghostty --fullscreen'"
+name='Terminal'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3]
+binding='<Primary><Alt>v'
+command='copyq toggle'
+name='clipboard'
+
+[org/gnome/settings-daemon/plugins/power]
+sleep-inactive-ac-timeout=1800
+sleep-inactive-ac-type='nothing'
+sleep-inactive-battery-timeout=1800
+sleep-inactive-battery-type='suspend'
+
+[org/gnome/shell]
+disabled-extensions=['workspace-indicator@gnome-shell-extensions.gcampax.github.com']
+enabled-extensions=['ding@rastersoft.com', 'pop-cosmic@system76.com', 'pop-shell@system76.com', 'system76-power@system76.com', 'ubuntu-appindicators@ubuntu.com', 'cosmic-dock@system76.com', 'cosmic-workspaces@system76.com', 'popx11gestures@system76.com', 'auto-move-windows@gnome-shell-extensions.gcampax.github.com']
+had-bluetooth-devices-setup=true
+welcome-dialog-last-shown-version='42.9'
+
+[org/gnome/shell/extensions/auto-move-windows]
+application-list=['com.mitchellh.ghostty.desktop:2']
+
+[org/gnome/shell/extensions/dash-to-dock]
+extend-height=false
+manualhide=true
+
+[org/gnome/shell/extensions/pop-cosmic]
+clock-alignment='LEFT'
+overlay-key-action='LAUNCHER'
+
+[org/gnome/system/location]
+enabled=false
+
+[org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+background-color='rgb(23,20,33)'
+background-transparency-percent=17
+bold-is-bright=false
+font='AdwaitaMono Nerd Font 12'
+foreground-color='rgb(208,207,204)'
+palette=['rgb(7,54,66)', 'rgb(220,50,47)', 'rgb(133,153,0)', 'rgb(181,137,0)', 'rgb(38,139,210)', 'rgb(211,54,130)', 'rgb(42,161,152)', 'rgb(238,232,213)', 'rgb(0,43,54)', 'rgb(203,75,22)', 'rgb(88,110,117)', 'rgb(101,123,131)', 'rgb(131,148,150)', 'rgb(108,113,196)', 'rgb(147,161,161)', 'rgb(253,246,227)']
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=false
+
+[org/gtk/gtk4/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=false
+show-size-column=true
+show-type-column=true
+sidebar-width=162
+sort-column='name'
+sort-directories-first=false
+sort-order='ascending'
+type-format='category'
+window-size=(1206, 888)
+
+[org/gtk/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=false
+show-size-column=true
+show-type-column=true
+sidebar-width=150
+sort-column='name'
+sort-directories-first=false
+sort-order='ascending'
+type-format='category'
+window-position=(398, 118)
+window-size=(1124, 822)
