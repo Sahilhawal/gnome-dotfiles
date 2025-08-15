@@ -1,0 +1,27 @@
+[/]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/PopLaunch1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/']
+
+[custom-keybindings/PopLaunch1]
+binding='Launch1'
+command='gnome-control-center wifi'
+name='WiFi'
+
+[custom-keybindings/custom0]
+binding='<Alt>2'
+command="bash -c 'wmctrl -xa code || code'\n"
+name='VS Code'
+
+[custom-keybindings/custom1]
+binding='<Alt>3'
+command="bash -c 'wmctrl -xa \"google-chrome\" || google-chrome'\n"
+name='Chrome'
+
+[custom-keybindings/custom2]
+binding='<Alt>space'
+command="bash -c 'wmctrl -xa \"ghostty\" || ghostty --fullscreen'"
+name='Terminal'
+
+[custom-keybindings/custom3]
+binding='<Primary><Alt>v'
+command='copyq toggle'
+name='clipboard'
