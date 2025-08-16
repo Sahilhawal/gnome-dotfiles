@@ -1,0 +1,2 @@
+[/]
+activate-window-menu=@as []
