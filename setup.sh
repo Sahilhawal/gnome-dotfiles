@@ -98,4 +98,16 @@ if command -v zsh >/dev/null 2>&1; then
     chsh -s "$(which zsh)"
 fi
 
+# Restore keyboard shortcuts
+if command -v dconf >/dev/null 2>&1; then
+    echo "🎹 Restoring keyboard shortcuts..."
+    if [ -f "$HOME/dotfiles/keyboard-shortcuts-backup.txt" ]; then
+        dconf load /org/gnome/settings-daemon/plugins/media-keys/ < "$HOME/dotfiles/keyboard-shortcuts-backup.txt"
+    fi
+    if [ -f "$HOME/dotfiles/wm-keybindings-backup.txt" ]; then
+        dconf load /org/gnome/desktop/wm/keybindings/ < "$HOME/dotfiles/wm-keybindings-backup.txt"
+    fi
+else
+    echo "⚠️ dconf not installed, skipping keyboard shortcuts restore."
+fi
 echo "✅ Setup complete! Log out & log back in to apply all changes."

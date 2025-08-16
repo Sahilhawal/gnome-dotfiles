@@ -45,3 +45,4 @@ background-blur = true
 # # Just for example:
 # resize-overlay-duration = 4s 200ms
 # [window]
+background-opacity = 0.8

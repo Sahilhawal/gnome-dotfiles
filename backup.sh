@@ -40,4 +40,11 @@ if command -v dconf >/dev/null 2>&1; then
     dconf dump / > "$DOTFILES_DIR/gnome-settings-backup.txt"
 fi
 
+echo "🎹 Backing up keyboard shortcuts..."
+
+# Media keys (custom shortcuts like launching apps, screenshots, etc.)
+dconf dump /org/gnome/settings-daemon/plugins/media-keys/ > "$HOME/dotfiles/keyboard-shortcuts-backup.txt"
+
+# Window manager shortcuts (workspace switching, tiling, etc.)
+dconf dump /org/gnome/desktop/wm/keybindings/ > "$HOME/dotfiles/wm-keybindings-backup.txt"
 echo "✅ Backup complete!"
